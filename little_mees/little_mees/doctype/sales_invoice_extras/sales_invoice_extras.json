@@ -1,0 +1,141 @@
+{
+ "creation": "2021-03-31 17:20:49.668458",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "platform_id",
+  "brand",
+  "kitchen",
+  "delivery_by",
+  "order_platform",
+  "emirate_or_state",
+  "payment_method",
+  "total_gross_sale",
+  "delivery_fee",
+  "discount",
+  "net_sale_after_discount",
+  "kitchen_food_cost",
+  "packaging",
+  "order_taking_commission",
+  "delivery_commission",
+  "credit_card_fees",
+  "delivery_platform_charges"
+ ],
+ "fields": [
+  {
+   "fieldname": "platform_id",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Platform ID",
+   "reqd": 1
+  },
+  {
+   "fieldname": "brand",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "label": "Brand"
+  },
+  {
+   "fieldname": "kitchen",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "label": "Kitchen"
+  },
+  {
+   "fieldname": "delivery_by",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Delivery By "
+  },
+  {
+   "fieldname": "order_platform",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Order Platform"
+  },
+  {
+   "fieldname": "emirate_or_state",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Emirate or State"
+  },
+  {
+   "fieldname": "payment_method",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Payment Method",
+   "options": "\nCARD\nCOD\nONLINE"
+  },
+  {
+   "fieldname": "total_gross_sale",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Total Gross Sale"
+  },
+  {
+   "fieldname": "delivery_fee",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Delivery Fee"
+  },
+  {
+   "fieldname": "discount",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Discount"
+  },
+  {
+   "fieldname": "net_sale_after_discount",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Net Sale After Discount"
+  },
+  {
+   "fieldname": "kitchen_food_cost",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Kitchen Food Costs"
+  },
+  {
+   "fieldname": "packaging",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Packaging"
+  },
+  {
+   "fieldname": "order_taking_commission",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Order Taking Commission"
+  },
+  {
+   "fieldname": "delivery_commission",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Delivery Commission"
+  },
+  {
+   "fieldname": "credit_card_fees",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Credit Card Fees"
+  },
+  {
+   "fieldname": "delivery_platform_charges",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Delivery Platform Charges"
+  }
+ ],
+ "istable": 1,
+ "modified": "2021-04-11 23:02:47.304081",
+ "modified_by": "Administrator",
+ "module": "Little Mees",
+ "name": "Sales Invoice Extras",
+ "owner": "Administrator",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

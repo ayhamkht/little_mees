@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include little_mees *.css
+recursive-include little_mees *.csv
+recursive-include little_mees *.html
+recursive-include little_mees *.ico
+recursive-include little_mees *.js
+recursive-include little_mees *.json
+recursive-include little_mees *.md
+recursive-include little_mees *.png
+recursive-include little_mees *.py
+recursive-include little_mees *.svg
+recursive-include little_mees *.txt
+recursive-exclude little_mees *.pyc

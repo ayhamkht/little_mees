@@ -1,0 +1,28 @@
+{
+ "creation": "2021-06-01 15:41:53.491587",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "system_ids"
+ ],
+ "fields": [
+  {
+   "fieldname": "system_ids",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "System IDs",
+   "read_only": 1
+  }
+ ],
+ "istable": 1,
+ "modified": "2021-06-02 11:41:09.897423",
+ "modified_by": "Administrator",
+ "module": "Little Mees",
+ "name": "Duplicated System IDs",
+ "owner": "Administrator",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

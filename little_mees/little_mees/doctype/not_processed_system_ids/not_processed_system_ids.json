@@ -1,0 +1,36 @@
+{
+ "creation": "2021-06-01 15:47:23.473790",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "system_ids",
+  "reason"
+ ],
+ "fields": [
+  {
+   "fieldname": "system_ids",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "System IDs",
+   "read_only": 1
+  },
+  {
+   "fieldname": "reason",
+   "fieldtype": "Long Text",
+   "in_list_view": 1,
+   "label": "Reason",
+   "read_only": 1
+  }
+ ],
+ "istable": 1,
+ "modified": "2021-06-02 11:40:47.499812",
+ "modified_by": "Administrator",
+ "module": "Little Mees",
+ "name": "Not Processed System IDs",
+ "owner": "Administrator",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

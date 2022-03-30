@@ -1,0 +1,533 @@
+{
+  "data": [
+    {
+      "system_id": "112380",
+      "platform_order_id": "3290",
+      "platform_id": 3,
+      "platform_name": "Deliveroo",
+      "brand": "Sushi Palace",
+      "brand_branch": "Dubai, Century Village",
+      "kitchen": "Sushi Sushi",
+      "kitchen_branch": "Dubai",
+      "delivered_by": "Quiqup",
+      "delivery_platform_charges": 0,
+      "order_date": "2021-03-11",
+      "order_platform": "Deliveroo",
+      "order_items": [
+        {
+          "item_code": "Crab, Cucumber & Tobiko",
+          "rate": "55.00",
+          "qty": "1",
+          "kitchen_price": "27.3",
+          "kitchen_cost_vat": "1.365",
+          "kitchen_cost_without_vat": "25.935",
+          "configuration_type": "simple",
+          "sell_price": "55.00",
+          "sell_price_vat": "2.75",
+          "sell_price_without_vat": "52.25",
+          "packaging_cost": "1.65",
+          "packaging_cost_vat": "0.0825",
+          "packaging_cost_without_vat": "1.5675"
+        },
+        {
+          "item_code": "Rocky -8 Pcs",
+          "rate": "71.50",
+          "qty": "1",
+          "kitchen_price": "40.95",
+          "kitchen_cost_vat": "2.0475",
+          "kitchen_cost_without_vat": "38.9025",
+          "configuration_type": "simple",
+          "sell_price": "71.50",
+          "sell_price_vat": "3.575",
+          "sell_price_without_vat": "67.925",
+          "packaging_cost": "2.145",
+          "packaging_cost_vat": "0.10725",
+          "packaging_cost_without_vat": "2.03775"
+        },
+        {
+          "item_code": "Funky Roll -8 Pcs",
+          "rate": "52.00",
+          "qty": "1",
+          "kitchen_price": "30.45",
+          "kitchen_cost_vat": "1.5225",
+          "kitchen_cost_without_vat": "28.9275",
+          "configuration_type": "simple",
+          "sell_price": "52.00",
+          "sell_price_vat": "2.6",
+          "sell_price_without_vat": "49.4",
+          "packaging_cost": "1.56",
+          "packaging_cost_vat": "0.078",
+          "packaging_cost_without_vat": "1.482"
+        }
+      ],
+      "state": "",
+      "delivery_fee": "8.99",
+      "order_status": "order completed",
+      "payment_method": "COD",
+      "sales_total": "98.24",
+      "total_gross_sale": "187.49",
+      "net_sale_after_discount": "107.23",
+      "subtotal_without_vat": "169.575",
+      "subtotal_vat": "8.925",
+      "subtotal": "178.5",
+      "discount": "89.25",
+      "grand_total_without_vat": "93.328",
+      "grand_total_vat": "4.912",
+      "grand_total": "98.24",
+      "currency": "AED",
+      "costs_breakdown": {
+        "packaging_cost": {
+          "debit": {
+            "cost_center": "Main - LM",
+            "account_currency": "AED",
+            "account": "Packaging Cost",
+            "exchange_rate": 1,
+            "debit": "5.08725",
+            "credit": 0,
+            "debit_in_account_currency": "5.08725",
+            "credit_in_account_currency": 0
+          },
+          "credit": {
+            "party_type": "Supplier",
+            "party": "Hotpack",
+            "cost_center": "Main - LM",
+            "account_currency": "AED",
+            "account": "Packaging Liability",
+            "exchange_rate": 1,
+            "debit": 0,
+            "credit": "5.08725",
+            "debit_in_account_currency": 0,
+            "credit_in_account_currency": "5.08725"
+          }
+        },
+        "kitchen_cost": {
+          "debit": {
+            "cost_center": "Main - LM",
+            "account_currency": "AED",
+            "account": "Kitchen Cost",
+            "cost_center_branch": "Dubai",
+            "exchange_rate": 1,
+            "debit": "93.765",
+            "credit": 0,
+            "debit_in_account_currency": "93.765",
+            "credit_in_account_currency": 0
+          },
+          "credit": {
+            "party_type": "Supplier",
+            "party": "Sushi Sushi",
+            "cost_center": "Main - LM",
+            "account_currency": "AED",
+            "account": "Kitchen Liability",
+            "cost_center_branch": "Dubai",
+            "exchange_rate": 1,
+            "debit": 0,
+            "credit": "93.765",
+            "debit_in_account_currency": 0,
+            "credit_in_account_currency": "93.765"
+          }
+        },
+        "platform_cost": {
+          "debit": {
+            "cost_center": "Main - LM",
+            "account_currency": "AED",
+            "account": "Platform Cost",
+            "exchange_rate": 1,
+            "debit": 0,
+            "credit": 0,
+            "debit_in_account_currency": 0,
+            "credit_in_account_currency": 0
+          },
+          "credit": {
+            "party_type": "Supplier",
+            "party": "Deliveroo",
+            "cost_center": "Main - LM",
+            "account_currency": "AED",
+            "account": "Platform Liability",
+            "exchange_rate": 1,
+            "debit": 0,
+            "credit": 0,
+            "debit_in_account_currency": 0,
+            "credit_in_account_currency": 0
+          }
+        }
+      },
+      "statistics": {
+        "ordering_platform": {
+          "id": 3,
+          "name": "Deliveroo"
+        },
+        "logistics_commission": 0,
+        "pg_commission": 0,
+        "gem_fee": 0,
+        "TGO_service_fee": 0,
+        "gem_base_amount": 0,
+        "ranking_fees": 0,
+        "coupon_charges": 0,
+        "bank_charges": 0,
+        "other_adjustment": 0,
+        "credit_card_charges": 0,
+        "vat_on_commission": 0,
+        "marketer_offer": 0,
+        "refund_debit": 0,
+        "rebates": 0,
+        "misc_paid": 0,
+        "cash_collected": 0,
+        "convenience_fees": 0,
+        "order_commissions": {
+          "order_taking_commission": 0,
+          "delivery_commission": 0,
+          "total_commission_without_vat": 0,
+          "total_commission_vat": 0,
+          "total_commission": 0,
+          "delivery_charge": 15.75,
+          "credit_card_fee_without_vat": 0,
+          "credit_card_fee_vat": 0,
+          "credit_card_charges": 0
+        }
+      }
+    },
+    {
+      "system_id": "112379",
+      "platform_order_id": "420619892",
+      "platform_id": 7,
+      "platform_name": "TalabatGo",
+      "brand": "Bok Bok Grilled Chicken",
+      "brand_branch": "Muroor AUH",
+      "kitchen": "Bait Alameera (Bok Bok Grilled Chicken)",
+      "kitchen_branch": "Muroor AUH",
+      "delivered_by": "Same Platform",
+      "delivery_platform_charges": 0,
+      "order_date": "2021-03-11",
+      "order_platform": "TalabatGo",
+      "order_items": [
+        {
+          "item_code": "Grilled Bok Chicken Breast Combo(Addons: Potato Mash & Gravy, Sprite [300 ml])",
+          "rate": "42.00",
+          "qty": "1",
+          "kitchen_price": "17",
+          "kitchen_cost_vat": "0.85",
+          "kitchen_cost_without_vat": "16.15",
+          "configuration_type": "simple",
+          "sell_price": "42.00",
+          "sell_price_vat": "2.1",
+          "sell_price_without_vat": "39.9",
+          "packaging_cost": "1.26",
+          "packaging_cost_vat": "0.063",
+          "packaging_cost_without_vat": "1.197"
+        },
+        {
+          "item_code": "Spicy Potato Chunks",
+          "rate": "14.00",
+          "qty": "1",
+          "kitchen_price": "5",
+          "kitchen_cost_vat": "0.25",
+          "kitchen_cost_without_vat": "4.75",
+          "configuration_type": "simple",
+          "sell_price": "14.00",
+          "sell_price_vat": "0.7",
+          "sell_price_without_vat": "13.3",
+          "packaging_cost": "0.42",
+          "packaging_cost_vat": "0.021",
+          "packaging_cost_without_vat": "0.399"
+        },
+        {
+          "item_code": "Charcoal Sesame Zaatar Chicken",
+          "rate": "21.00",
+          "qty": "1",
+          "kitchen_price": "9",
+          "kitchen_cost_vat": "0.45",
+          "kitchen_cost_without_vat": "8.55",
+          "configuration_type": "simple",
+          "sell_price": "21.00",
+          "sell_price_vat": "1.05",
+          "sell_price_without_vat": "19.95",
+          "packaging_cost": "0.63",
+          "packaging_cost_vat": "0.0315",
+          "packaging_cost_without_vat": "0.5985"
+        }
+      ],
+      "state": "",
+      "delivery_fee": "7.00",
+      "order_status": "ready for pickup",
+      "payment_method": "Card",
+      "sales_total": "54.00",
+      "total_gross_sale": "84.00",
+      "net_sale_after_discount": "61.00",
+      "subtotal_without_vat": "73.15",
+      "subtotal_vat": "3.85",
+      "subtotal": "77",
+      "discount": "30.00",
+      "grand_total_without_vat": "51.3",
+      "grand_total_vat": "2.7",
+      "grand_total": "54",
+      "currency": "AED",
+      "costs_breakdown": {
+        "packaging_cost": {
+          "debit": {
+            "cost_center": "Main - LM",
+            "account_currency": "AED",
+            "account": "Packaging Cost",
+            "exchange_rate": 1,
+            "debit": "2.1945",
+            "credit": 0,
+            "debit_in_account_currency": "2.1945",
+            "credit_in_account_currency": 0
+          },
+          "credit": {
+            "party_type": "Supplier",
+            "party": "Hotpack",
+            "cost_center": "Main - LM",
+            "account_currency": "AED",
+            "account": "Packaging Liability",
+            "exchange_rate": 1,
+            "debit": 0,
+            "credit": "2.1945",
+            "debit_in_account_currency": 0,
+            "credit_in_account_currency": "2.1945"
+          }
+        },
+        "kitchen_cost": {
+          "debit": {
+            "cost_center": "Main - LM",
+            "account_currency": "AED",
+            "account": "Kitchen Cost",
+            "cost_center_branch": "Muroor AUH",
+            "exchange_rate": 1,
+            "debit": "29.45",
+            "credit": 0,
+            "debit_in_account_currency": "29.45",
+            "credit_in_account_currency": 0
+          },
+          "credit": {
+            "party_type": "Supplier",
+            "party": "Bait Alameera (Bok Bok Grilled Chicken)",
+            "cost_center": "Main - LM",
+            "account_currency": "AED",
+            "account": "Kitchen Liability",
+            "cost_center_branch": "Muroor AUH",
+            "exchange_rate": 1,
+            "debit": 0,
+            "credit": "29.45",
+            "debit_in_account_currency": 0,
+            "credit_in_account_currency": "29.45"
+          }
+        },
+        "platform_cost": {
+          "debit": {
+            "cost_center": "Main - LM",
+            "account_currency": "AED",
+            "account": "Packaging Cost",
+            "exchange_rate": 1,
+            "debit": 4.7,
+            "credit": 0,
+            "debit_in_account_currency": 4.7,
+            "credit_in_account_currency": 0
+          },
+          "credit": {
+            "party_type": "Supplier",
+            "party": "TalabatGo",
+            "cost_center": "Main - LM",
+            "account_currency": "AED",
+            "account": "Packaging Liability",
+            "exchange_rate": 1,
+            "debit": 0,
+            "credit": 4.7,
+            "debit_in_account_currency": 0,
+            "credit_in_account_currency": 4.7
+          }
+        }
+      },
+      "statistics": {
+        "ordering_platform": {
+          "id": 7,
+          "name": "TalabatGo"
+        },
+        "logistics_commission": 7.05,
+        "pg_commission": 0.99,
+        "gem_fee": 0,
+        "TGO_service_fee": 0,
+        "gem_base_amount": 0,
+        "ranking_fees": 0,
+        "coupon_charges": 0,
+        "bank_charges": 0,
+        "other_adjustment": 0,
+        "credit_card_charges": 0.99,
+        "vat_on_commission": 0.24,
+        "marketer_offer": 0,
+        "refund_debit": 0,
+        "rebates": 0,
+        "misc_paid": 0,
+        "cash_collected": 0,
+        "convenience_fees": 0,
+        "order_commissions": {
+          "order_taking_commission": 4.7,
+          "delivery_commission": 7.05,
+          "credit_card_fee_without_vat": 0.94,
+          "credit_card_fee_vat": 0.05,
+          "total_commission_without_vat": 11.75,
+          "total_commission_vat": 0.59,
+          "total_commission": 12.34,
+          "delivery_charge": 0,
+          "credit_card_charges": 0.99
+        }
+      }
+    },
+    {
+      "system_id": "112378",
+      "platform_order_id": "1780982253",
+      "platform_id": 101,
+      "platform_name": "Deliverect",
+      "brand": "Crazy Burger",
+      "brand_branch": "Al Falah street AUH",
+      "kitchen": "Tea Bae Cafe",
+      "kitchen_branch": "Al Falah street AUH",
+      "delivered_by": "Same Platform",
+      "delivery_platform_charges": 0,
+      "order_date": "2021-03-11",
+      "order_platform": "Deliverect",
+      "order_items": [
+        {
+          "item_code": "Combo for 2: (Addons: Sunrise Beef Burger, Oman Chips Beef, Dynamite Chicken Fries, Sprite, Fanta)",
+          "rate": "73.00",
+          "qty": "1",
+          "kitchen_price": "52.25",
+          "kitchen_cost_vat": "2.6125",
+          "kitchen_cost_without_vat": "49.6375",
+          "configuration_type": "simple",
+          "sell_price": "73.00",
+          "sell_price_vat": "3.65",
+          "sell_price_without_vat": "69.35",
+          "packaging_cost": "2.19",
+          "packaging_cost_vat": "0.1095",
+          "packaging_cost_without_vat": "2.0805"
+        }
+      ],
+      "state": "",
+      "delivery_fee": "0.00",
+      "order_status": "order completed",
+      "payment_method": "Online",
+      "sales_total": "35.77",
+      "total_gross_sale": "73.00",
+      "net_sale_after_discount": "35.77",
+      "subtotal_without_vat": "69.35",
+      "subtotal_vat": "3.65",
+      "subtotal": "73",
+      "discount": "37.23",
+      "grand_total_without_vat": "33.9815",
+      "grand_total_vat": "1.7885",
+      "grand_total": "35.77",
+      "currency": "AED",
+      "costs_breakdown": {
+        "packaging_cost": {
+          "debit": {
+            "cost_center": "Main - LM",
+            "account_currency": "AED",
+            "account": "Packaging Cost",
+            "exchange_rate": 1,
+            "debit": "2.0805",
+            "credit": 0,
+            "debit_in_account_currency": "2.0805",
+            "credit_in_account_currency": 0
+          },
+          "credit": {
+            "party_type": "Supplier",
+            "party": "Hotpack",
+            "cost_center": "Main - LM",
+            "account_currency": "AED",
+            "account": "Packaging Liability",
+            "exchange_rate": 1,
+            "debit": 0,
+            "credit": "2.0805",
+            "debit_in_account_currency": 0,
+            "credit_in_account_currency": "2.0805"
+          }
+        },
+        "kitchen_cost": {
+          "debit": {
+            "cost_center": "Main - LM",
+            "account_currency": "AED",
+            "account": "Kitchen Cost",
+            "cost_center_branch": "Al Falah street AUH",
+            "exchange_rate": 1,
+            "debit": "49.6375",
+            "credit": 0,
+            "debit_in_account_currency": "49.6375",
+            "credit_in_account_currency": 0
+          },
+          "credit": {
+            "party_type": "Supplier",
+            "party": "Tea Bae Cafe",
+            "cost_center": "Main - LM",
+            "account_currency": "AED",
+            "account": "Kitchen Liability",
+            "cost_center_branch": "Al Falah street AUH",
+            "exchange_rate": 1,
+            "debit": 0,
+            "credit": "49.6375",
+            "debit_in_account_currency": 0,
+            "credit_in_account_currency": "49.6375"
+          }
+        },
+        "platform_cost": {
+          "debit": {
+            "cost_center": "Main - LM",
+            "account_currency": "AED",
+            "account": "Platform Cost",
+            "exchange_rate": 1,
+            "debit": 0,
+            "credit": 0,
+            "debit_in_account_currency": 0,
+            "credit_in_account_currency": 0
+          },
+          "credit": {
+            "party_type": "Supplier",
+            "party": "Deliverect",
+            "cost_center": "Main - LM",
+            "account_currency": "AED",
+            "account": "Platform Liability",
+            "exchange_rate": 1,
+            "debit": 0,
+            "credit": 0,
+            "debit_in_account_currency": 0,
+            "credit_in_account_currency": 0
+          }
+        }
+      },
+      "statistics": {
+        "ordering_platform": {
+          "id": 101,
+          "name": "Deliverect"
+        },
+        "logistics_commission": 0,
+        "pg_commission": 0,
+        "gem_fee": 0,
+        "TGO_service_fee": 0,
+        "gem_base_amount": 0,
+        "ranking_fees": 0,
+        "coupon_charges": 0,
+        "bank_charges": 0,
+        "other_adjustment": 0,
+        "credit_card_charges": 0,
+        "vat_on_commission": 0,
+        "marketer_offer": 0,
+        "refund_debit": 0,
+        "rebates": 0,
+        "misc_paid": 0,
+        "cash_collected": 0,
+        "convenience_fees": 0,
+        "order_commissions": {
+          "order_taking_commission": 0,
+          "total_commission_without_vat": 0,
+          "total_commission_vat": 0,
+          "total_commission": 0,
+          "credit_card_fee_without_vat": 0,
+          "credit_card_fee_vat": 0,
+          "delivery_charge": 0,
+          "credit_card_charges": 0,
+          "delivery_commission": 0
+        }
+      }
+    }
+  ],
+  "success": "true"
+}

@@ -1,0 +1,189 @@
+{
+ "creation": "2021-04-05 12:44:04.619957",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "site_name",
+  "company",
+  "cost_center",
+  "delivery_fee_account_head",
+  "vat_account_head",
+  "apply_discount_on",
+  "incom_vat_charge_type",
+  "liability_account_head",
+  "delivery_fee_discription",
+  "sales_invoice_charge_type",
+  "delivery_commission_cost_account_head",
+  "currency",
+  "exchange_rate",
+  "delivery_charge_cost_account_head",
+  "party_type_supplier",
+  "party_type_customer",
+  "same_platform_check_value",
+  "customer_type",
+  "customer_group",
+  "customer_territory",
+  "supplier_type",
+  "supplier_group",
+  "supplier_country",
+  "timeout",
+  "char_length",
+  "order_length"
+ ],
+ "fields": [
+  {
+   "fieldname": "company",
+   "fieldtype": "Data",
+   "label": "Company"
+  },
+  {
+   "fieldname": "cost_center",
+   "fieldtype": "Data",
+   "label": "Cost Center"
+  },
+  {
+   "fieldname": "delivery_fee_account_head",
+   "fieldtype": "Data",
+   "label": "Delivery Fee Account Head"
+  },
+  {
+   "fieldname": "delivery_fee_discription",
+   "fieldtype": "Data",
+   "label": "Delivery Fee Discription"
+  },
+  {
+   "fieldname": "sales_invoice_charge_type",
+   "fieldtype": "Data",
+   "label": "Sales Invoice Charge Type"
+  },
+  {
+   "fieldname": "currency",
+   "fieldtype": "Data",
+   "label": "Currency"
+  },
+  {
+   "fieldname": "exchange_rate",
+   "fieldtype": "Data",
+   "label": "Exchange Rate"
+  },
+  {
+   "fieldname": "delivery_commission_cost_account_head",
+   "fieldtype": "Data",
+   "label": "Delivery Commission Cost Account Head "
+  },
+  {
+   "fieldname": "delivery_charge_cost_account_head",
+   "fieldtype": "Data",
+   "label": "Delivery Charge Cost Account Head"
+  },
+  {
+   "fieldname": "party_type_supplier",
+   "fieldtype": "Data",
+   "label": "Party Type Supplier"
+  },
+  {
+   "fieldname": "party_type_customer",
+   "fieldtype": "Data",
+   "label": "Party Type Customer"
+  },
+  {
+   "fieldname": "same_platform_check_value",
+   "fieldtype": "Data",
+   "label": "Same Platform Check Value"
+  },
+  {
+   "fieldname": "customer_type",
+   "fieldtype": "Data",
+   "label": "Customer Type"
+  },
+  {
+   "fieldname": "customer_group",
+   "fieldtype": "Data",
+   "label": "Customer Group"
+  },
+  {
+   "fieldname": "customer_territory",
+   "fieldtype": "Data",
+   "label": "Customer Territory"
+  },
+  {
+   "fieldname": "supplier_type",
+   "fieldtype": "Data",
+   "label": "Supplier Type"
+  },
+  {
+   "fieldname": "supplier_group",
+   "fieldtype": "Data",
+   "label": "Supplier Group"
+  },
+  {
+   "fieldname": "supplier_country",
+   "fieldtype": "Data",
+   "label": "Supplier Country"
+  },
+  {
+   "fieldname": "vat_account_head",
+   "fieldtype": "Data",
+   "label": "Vat Account Head"
+  },
+  {
+   "fieldname": "liability_account_head",
+   "fieldtype": "Data",
+   "label": "Liability Account Head"
+  },
+  {
+   "fieldname": "apply_discount_on",
+   "fieldtype": "Select",
+   "label": "Apply Discount On",
+   "options": "Net Total\nGrand Total"
+  },
+  {
+   "fieldname": "incom_vat_charge_type",
+   "fieldtype": "Data",
+   "label": "Incom Vat Charge Type"
+  },
+  {
+   "fieldname": "site_name",
+   "fieldtype": "Data",
+   "label": "Site Name"
+  },
+  {
+   "fieldname": "timeout",
+   "fieldtype": "Int",
+   "label": "Timeout"
+  },
+  {
+   "fieldname": "char_length",
+   "fieldtype": "Int",
+   "label": "Char Length"
+  },
+  {
+   "fieldname": "order_length",
+   "fieldtype": "Int",
+   "label": "Order Length"
+  }
+ ],
+ "issingle": 1,
+ "modified": "2021-07-15 20:18:06.088498",
+ "modified_by": "Administrator",
+ "module": "Little Mees",
+ "name": "Little Mees Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
